@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zodiac</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="moon.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <style>
+        header
+        {
+            background-color: rgb(253, 161, 23);
+            padding: 5px;
+            height: 60px;
+            text-align: center;
+            font-size: 14px;
+        }
+        nav
+        {
+            background-color: rgb(0, 0, 0);
+            height: 150px;
+        }
+        a
+        {
+            color: rgb(253, 161, 23);
+            padding: 60px;
+            text-decoration: none;
+            text-align: right;
+            /* text-decoration-thickness: 5px; */
+            font-size: 18px;
+            
+        }
+        .footernote
+        {
+            font-size: 10px;
+            padding:10px;
+        }
+        </style>
+</head>
+<body>
+<div class="container-fluid g-5">
+        <nav class="navbar navbar-expand-lg g-2 bg-secondary sticky-top" style="background: linear-gradient(to right,rgb(253, 161, 23),rgb(0, 0, 0))">
+        <div class="container-fluid">
+            <div class="box">
+                <input type="text" align="left" name="" placeholder="Search">
+            </div>
+            <a class="navbar-brand text-light p-5 square" href="#Home"><i>Home</i></a>
+            <a class="navbar-brand text-light p-5 square" href="#About Us"><i>About Us</i></a>
+            <a class="navbar-brand text-light p-5 square" href="#WishList"><i>WishList</i></a>
+            <a class="navbar-brand text-light p-5 square" href="#Help"><i>Help</i></a>
+        </div>
+        <div align="right">
+            <img src="human_logo1.jpeg" alt="my image" width="100" height="100" class="img-thumbnail rounded-circle">
+            <h6 color="white" align="center"><font face="Comic sans MS" size="2" style="color: rgb(253, 161, 23)">Profile</font></h6>
+        </div>
+      </nav>
+      <hr>
+      <div id="Best-Sellers">
+        <h1 class="display-5 text-dark"><i>Best-Sellers</i></h1>
+        <table class="caption-top table table-hover table-striped table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Genre</th>
+              <th scope="col">Book Name</th>
+              <th scope="col">Author</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td><i>Romance</i></td>
+              <td>Weather Girl</td>
+              <td>Rachel Lynn Solomon</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td><i>Crime</i></td>
+              <td>Summer's Edge</td>
+              <td>Dana Mele</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td><i>Fiction</i></td>
+                <td>Violeta</td>
+                <td>Isabel Allende</td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+    <div id="About Us">
+      <h4 class="display-5"><i>About Us</i></h4>
+      <div class="row">
+          <div class="col">
+              <strong><font face="Comic sans MS" size="3">Looking for a Great Book?</font></strong>
+                  <ul type="none">
+                      <i><li>Zodiac is in favour for you!</li>
+                      <li>Tell us what titles or genres you’ve enjoyed in the past,</li>
+                      <li>and we’ll give you surprisingly insightful recommendations.</li>
+                      <li>Zodiac Books aspires to recognize and reflect diverse voices by taking stories to published book and</li>
+                      <li>onto bookshelves around the world.</li>
+                      </i>
+                  </ul>
+          </div>
+      </div>
+    </div>
+    <!-- <hr>
+    <div class="featureTeaserBox__quotesBoxLinks">
+    <a class="gr-hyperlink" href="/quotes">Best quotes</a>
+    <br>
+    <a class="gr-hyperlink" href="/quotes/tag/love">Love quotes</a>
+    <br>
+    <a class="gr-hyperlink" href="/quotes/tag/inspirational">Inspirational quotes</a>
+    <br>
+    <a class="gr-hyperlink" href="/quotes/tag/funny">Funny quotes</a>
+    <br>
+    <a class="gr-hyperlink" href="/quotes/tag/motivational">Motivational quotes</a>
+    <br>
+    <a class="gr-hyperlink" href="/quotes/tag/life">Life quotes</a>
+    <br>
+    <a class="gr-hyperlink" href="/quotes/tag/friends">Friends quotes</a>
+    <br>
+    <a class="gr-hyperlink" href="/quotes/tag/positive">Positive quotes</a>
+    <br>
+    <a class="gr-hyperlink" href="/quotes">More quotes</a>
+    </div>
+    </div>
+    </div> -->
+    <hr>
+    <br>
+      <div id="Suggestions">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Books</h5>
+                  <p class="card-text">
+                    <label for="genres">Select genres:</label>
+                    <select name="genres" id="genres">
+                              <option value="Horror">Horror</option>
+                              <option value="Romance">Romance</option>
+                              <option value="Crime thriller">Crime thriller</option>
+                              <option value="Fiction">Fiction</option>
+                              <option value="Literature">Literature</option>
+                              <option value="Mystery">Mystery</option>
+                              <option value="Drama">Drama</option>
+                              <option value="Fantasy">Fantasy</option>
+                              <option value="History">History</option>
+                    </select></p>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title"></h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 my-5">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title"></h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="col-sm-6 my-5">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title"></h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+          <hr>
+        <div id="Help">
+          <h3 class="display-5" align="left"><i>Help</i></h3><br>
+          <table class="table">
+            <div class="col">
+                <div class="row">
+                    <font size="4">&nbsp;&nbsp;Team ZODIAC</font>
+                    <font size="4">&nbsp;&nbsp;projectbyzodiac@gmail.com</font>
+                    <font size="4">&nbsp;&nbsp;Telangana,Hyderabad  500013</font>
+                    <font size="4">&nbsp;&nbsp;9100026775,9014008020</font>
+                </div>
+            </div>
+              <td>
+                <i>Reach out to us for any Queries-</i><br><br>
+                  <tr>
+                    <td>
+                      <div class="form-floating mb-3">
+                        <input type="username" class="form-control" id="floatingInput" placeholder="Username">
+                        <label for="floatingInput">Username</label>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-floating mb-3">
+                                  <label for="" class="form-label">Email</label>
+                                  <input type="email" class="form-control" name="Email" id="email" aria-describedby="emailHelpId" placeholder="Email Address">
+                                </div>
+                          </td>
+                        </tr>
+                              <td colspan="2">
+                                <div class="form-floating mb-3">
+                                  <input type="query" class="form-control" id="floatingInput" placeholder="Query">
+                                  <label for="floatingInput">Query</label>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <button type="button" class="btn btn-primary">Submit</button>
+                              </td>
+                            </tr>
+                   </table>
+              </td>
+            </tr>
+          </table>
+      </div>
+</div>
+</nav>
+</body>
+</html>
